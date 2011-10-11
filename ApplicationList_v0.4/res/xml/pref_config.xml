@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:key="using_categoties_in_root_screen"
+  android:title="@string/xml_prefconfig_title">
+  
+  	<PreferenceCategory 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:key="launch_app"
+		android:title="@string/xml_prefconfig_launch_app">
+		<CheckBoxPreference 
+			android:key="pref_auto_launch"
+			android:title="@string/xml_prefconfig_auto_launch"
+			android:summary="@string/xml_prefconfig_auto_launch_subscribe"
+			android:defaultValue="true"/>
+	</PreferenceCategory>
+  
+	<PreferenceCategory 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:key="launch_option"
+		android:title="@string/xml_prefconfig_launch_option">
+		<CheckBoxPreference 
+			android:key="pref_my_device_only"
+			android:title="@string/xml_prefconfig_private_launch"
+			android:summary="@string/xml_prefconfig_private_launch_subscribe"/>
+	</PreferenceCategory>
+    
+</PreferenceScreen>

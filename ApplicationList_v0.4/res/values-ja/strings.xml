@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- AndroidManifest.xml -->
+    <string name="app_name">Tag Launcher</string>
+    <string name="help">"ヘルプ"</string>
+    
+    <!-- AppExec.java -->
+    <string name="appexec_launch_option_disabled">"実行失敗!\n自動実行オプションがともっていないです."</string>
+    <string name="appexec_launch_protect_from_other_device">"実行失敗!\n他の器機で記録されたタグでは行うことができません."</string>
+    <string name="appexec_sorry_app_info_not_found">"申し訳ありません.\nタグへ記録された実行情報がないです."</string>
+    <string name="appexec_sorry_no_registered_apps">"申し訳ありません.\自動実行リストへ記録されたアプリケーションがないです."</string>
+    <string name="appexec_sorry_no_matched_apps">"申し訳ありません.\n自動実行リストへアプリケーション情報がないです."</string>
+    
+    <!-- AppList.java -->
+    <string name="applist_write_tag">"自動実行情報を NFCタグに記録しますか?"</string>
+    <string name="applist_write_tag_button">"タグに記録"</string>
+    <string name="applist_register_and_write">"登録完了.\n自動実行情報を NFCタグにも記録しますか?"</string>
+    <string name="applist_register_app">"自動実行リストへ追加しますか?"</string>
+    <string name="applist_register">"登録"</string>
+    <string name="applist_cancel">"取り消し"</string>
+    <string name="applist_unregister_app">"登録された情報を削除しますか?"</string>
+    <string name="applist_unregister">"削除"</string>
+    <string name="applist_write_to_tag">"タグに記録"</string>
+    <string name="applist_menu_remove_all">"登録リスト削除"</string>
+    <string name="applist_menu_help">"ヘルプ"</string>
+    <string name="applist_menu_configuration">"設定"</string>
+    <string name="applist_remove_all_apps">"登録されたすべての自動実行情報を削除しますか?"</string>
+    <string name="applist_remove_all">"皆削除"</string>
+    <string name="applist_no_intent">"申し訳ありません.\nアプリケーションの実行情報が正しくないです."</string>
+    
+    <!-- WriteToTag.java -->
+    <string name="writetotag_no_data">"記録する情報がないです."</string>
+    <string name="writetotag_not_ready">"記録する用意ができていないです."</string>
+    <string name="writetotag_readonly">"読み取り専用タグには記録することができません."</string>
+    <string name="writetotag_write_complete">"記録を完了しました."</string>
+    <string name="writetotag_format_fail">"タグ初期化するのに失敗しました."</string>
+    <string name="writetotag_ndef_not_supported">"NDEFを支援しないタグです."</string>
+    <string name="writetotag_write_failure">"記録の失敗"</string>
+    
+    <!-- applist.xml -->
+    <string name="xml_applist_registered_apps">"自動実行アプリケーションリスト"</string>
+    <string name="xml_applist_applist">"設置されたアプリケーション"</string>
+    
+    <!-- writetag.xml -->
+    <string name="xml_writetag_scan">"這うのにタグルをつければ\n記録を始めます."</string>
+    
+    <!-- pref_config.xml -->
+    <string name="xml_prefconfig_title">"設定"</string>
+    <string name="xml_prefconfig_launch_app">"アプリケーション実行"</string>
+    <string name="xml_prefconfig_auto_launch">"自動実行"</string>
+    <string name="xml_prefconfig_auto_launch_subscribe">"NFC タグに記録された情報を読めば\n登録されたアプリケーションを自動で行います."</string>
+    <string name="xml_prefconfig_launch_option">"実行オプション"</string>
+    <string name="xml_prefconfig_private_launch">"専用実行"</string>
+    <string name="xml_prefconfig_private_launch_subscribe">"私の器機で保存した情報ではなければ\n自動でアプリケーションを行わないです."</string>
+    
+    <!-- help_main.xml -->
+    <string name="help_main_what_is_tag_launcher">"TagLauncherは?"</string>
+    <string name="help_main_register_and_write_tag">"自動実行の準備"</string>
+    <string name="help_main_configurations">"設定"</string>
+    <string name="help_main_unregister">"自動実行項目の削除"</string>
+    <string name="help_main_exit">"ヘルプ終了"</string>
+    
+    <!-- help_register_and_write_to_tag.xml -->
+    <string name="help_register_and_write_script1">"  アプリケーション自動実行機能を使うために自動実行アプリケーションリストに登録をしてください. 設置されたアプリケーションリストで自動実行を願うアプリケーションをクリックしてください. \n(例 : カメラ)"</string>
+    <string name="help_register_and_write_script2">"  登録を確認するウィンドウが見えれば登録ボタンをクリックしてください."</string>
+    <string name="help_register_and_write_script3">"  登録が終われば NFC タグ実行情報の記録可否を問うウィンドウが見えます. タグに記録ボタンをクリックしてください.\n(もう登録されたアプリケーションは自動実行リストのアプリケーションをロングクルリックしてください.)"</string>
+    <string name="help_register_and_write_script4">"  NFC タグに書き取り画面が表示になった時 NFC タグ該当の器機をがジョだ対面記録が完了します."</string>
+    <string name="help_next_page">"次ページ (左にドラッグ)>>"</string>
+    
+    <!-- help_settings.xml -->
+    <string name="help_settings_script1">"  自動実行オプションは NFC タグから情報を読んでアプリケーション行う機能を活性/非活性させることができる機能です. NFCタグの情報を利用してアプリケーションを自動で行おうとすればこのオプションをチェックしてください.\n"</string>
+    <string name="help_settings_script2">"  専用実行オプションは他の器機で記録になった NFC タグの情報は自動実行を禁止する機能です. 私の器機で記録した情報にだけアプリケーション自動実行機能を使おうとすればこのオプションをチェックしてください.\n"</string>
+    
+    <!-- help_unregister.xml -->
+    <string name="help_unregister_script1">"  自動実行アプリケーションリストに登録された項目を削除しようとすれば, 該当の項目をクリックしてください.\n"</string>
+    <string name="help_unregister_script2">"  削除確認を問うウィンドウが見えれば, 削除ボタンをクリックして登録内訳を削除することができます."</string>
+    
+    <!-- help_what_is_taglauncher.xml -->
+    <string name="help_what_is_taglauncher_script1">"  TagLauncherは NFCを利用したアプリケーションの実行管理プログラムです. NFC タグを利用してアプリケーションを行おうとすればアプリケーションの実行情報が記録された NFC タグを準備してください."</string>
+    <string name="help_what_is_taglauncher_script2">"  次に TagLauncherかインストールされた器機を実行情報が記録された NFC タグにつけます. (該当の器機の画面がともられなければなりません.)"</string>
+    <string name="help_what_is_taglauncher_script3">"  TagLauncherが NFC タグに記録された情報を読んで NFC タグに記録されたアプリケーションを自動で行います."</string>
+    
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.lgcns.sce.nfc" android:versionCode="1"
+	android:versionName="1.0">
+
+	<application android:icon="@drawable/nfc_ico" android:label="@string/app_name">
+
+		<!-- Intro screen -->
+		<activity android:name=".TagLauncher" android:screenOrientation="portrait" 
+		    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:noHistory="true">
+		    <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<!-- Show installed app list and Manage apps whitch executed by tag reading	-->
+		<activity android:name=".AppList" android:label="@string/app_name">
+		</activity>
+
+		<!-- App Executor using tag reading -->
+		<activity android:name="AppExec">
+			<intent-filter>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="a/l" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.nfc.action.TECH_DISCOVERED" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.nfc.action.TAG_DISCOVERED" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<!-- Write app information to tag -->
+		<activity android:name="WriteToTag" android:launchMode="singleTop"
+			android:screenOrientation="portrait"></activity>
+			
+		<!-- Configuration for launch app -->
+		<activity android:name="Configure" android:launchMode="singleTop"
+			android:screenOrientation="portrait" ></activity>			
+		
+		<!-- Help page for using TagLauncher -->
+		<activity android:name="Help" android:label="@string/help"
+			android:screenOrientation="portrait" android:theme="@style/Theme.CustomDialog" ></activity>	
+
+	</application>
+
+	<uses-permission android:name="android.permission.NFC" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+	<uses-feature android:name="android.hardware.nfc" required="true" />
+
+	<uses-sdk android:minSdkVersion="10" />
+
+</manifest>

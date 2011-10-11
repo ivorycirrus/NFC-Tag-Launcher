@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/flipper_help_register_and_write"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp">
+  	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_main_register_and_write_tag"
+	  android:textColor="@android:color/black"
+	  android:drawableBottom="@drawable/help_2_1"/>	  
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_register_and_write_script1"	  
+	  android:textColor="@android:color/black"/>
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:textColor="@android:color/white"
+	  android:gravity="right"
+	  android:textSize="10dp"
+	  android:text="@string/help_next_page"/>
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:textColor="@android:color/white"
+	  android:gravity="bottom|center"
+	  android:text="1  .  .  ."/>
+  </LinearLayout>
+  
+  <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp">
+  	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_main_register_and_write_tag"
+	  android:textColor="@android:color/black"
+	  android:drawableBottom="@drawable/help_2_2"/>	  
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_register_and_write_script2"	  
+	  android:textColor="@android:color/black"/>
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:textColor="@android:color/white"
+	  android:gravity="bottom|center"
+	  android:text=".  2  .  ."/>
+  </LinearLayout>
+  
+  <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp">
+  	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_main_register_and_write_tag"
+	  android:textColor="@android:color/black"
+	  android:drawableBottom="@drawable/help_2_3"/>	  
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_register_and_write_script3"	  
+	  android:textColor="@android:color/black"/>
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:textColor="@android:color/white"
+	  android:gravity="bottom|center"
+	  android:text=".  .  3  ."/>
+  </LinearLayout>
+  
+  <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="5dp"
+  android:paddingRight="5dp">
+  	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_main_register_and_write_tag"
+	  android:textColor="@android:color/black"
+	  android:drawableBottom="@drawable/help_1_2"/>	  
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/help_register_and_write_script4"	  
+	  android:textColor="@android:color/black"/>
+	  <TextView 
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:textColor="@android:color/white"
+	  android:gravity="bottom|center"
+	  android:text=".  .  .  4"/>
+  </LinearLayout>
+    
+</ViewFlipper>

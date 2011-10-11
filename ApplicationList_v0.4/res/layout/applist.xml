@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/reg_title"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/xml_applist_registered_apps"
+	    android:background="#a0606060"
+	    android:visibility="gone"	    
+    	/>
+    <ListView
+	    android:id="@+id/lv_reg_app_list"
+		android:layout_width="fill_parent" 
+	    android:layout_height="150dip"
+	    android:background="#00ffffff" 
+	    android:visibility="gone"
+		/>    
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/xml_applist_applist"
+	    android:background="#a0606060"
+	    />
+	<ListView
+	    android:id="@+id/lv_app_list"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+		/>    
+</LinearLayout>

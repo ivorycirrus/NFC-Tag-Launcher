@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- AndroidManifest.xml -->
+    <string name="app_name">Tag Launcher</string>
+    <string name="help">도움말</string>
+    
+    <!-- AppExec.java -->
+    <string name="appexec_launch_option_disabled">"자동실행 실패!\n자동실행 옵션이 꺼져 있습니다."</string>
+    <string name="appexec_launch_protect_from_other_device">"자동실행 실패!\n다른 기기에서 기록된 태그로는 실행 할 수 없습니다."</string>
+    <string name="appexec_sorry_app_info_not_found">"죄송합니다.\n태그에 저장된 실행정보가 없습니다."</string>
+    <string name="appexec_sorry_no_registered_apps">"죄송합니다.\n자동실행목록에 등록된 어플리케이션이 없습니다!!"</string>
+    <string name="appexec_sorry_no_matched_apps">"죄송합니다.\n자동실행목록에 해당 어플리케이션 정보가 없습니다!!"</string>
+    
+    <!-- AppList.java -->
+    <string name="applist_write_tag">"자동실행 정보를 NFC 태그에 기록하시겟습니까?"</string>
+    <string name="applist_write_tag_button">"태그에 쓰기"</string>
+    <string name="applist_register_and_write">"등록 완료.\n자동실행 정보를 NFC 태그에도 기록하시겟습니까?"</string>
+    <string name="applist_register_app">"자동실행 목록에 추가하시겟습니까?"</string>
+    <string name="applist_register">"등록"</string>
+    <string name="applist_cancel">"취소"</string>
+    <string name="applist_unregister_app">"등록된 정보를 삭제하시겟습니까?"</string>
+    <string name="applist_unregister">"삭제"</string>
+    <string name="applist_write_to_tag">"태그에 기록"</string>
+    <string name="applist_menu_remove_all">"등록내역 초기화"</string>
+    <string name="applist_menu_help">"도움말"</string>
+    <string name="applist_menu_configuration">"환경설정"</string>
+    <string name="applist_remove_all_apps">"등록된 모든 자동실행 정보를 초기화 하시겟습니까?"</string>
+    <string name="applist_remove_all">"초기화"</string>
+    <string name="applist_no_intent">"죄송합니다!!\n어플리케이션 실행 정보가 올바르지 않습니다!!"</string>
+    
+    <!-- WriteToTag.java -->
+    <string name="writetotag_no_data">"저장할 정보가 없습니다."</string>
+    <string name="writetotag_not_ready">"기록할 준비가 되어 있지 않습니다."</string>
+    <string name="writetotag_readonly">"읽기전용 태그에는 기록 할 수 없습니다."</string>
+    <string name="writetotag_write_complete">"기록을 완료하였습니다."</string>
+    <string name="writetotag_format_fail">"태그를 초기화 하는데 실패하였습니다."</string>
+    <string name="writetotag_ndef_not_supported">"NDEF를 지원하지 않는 태그입니다."</string>
+    <string name="writetotag_write_failure">"쓰기 실패"</string>
+    
+    <!-- applist.xml -->
+    <string name="xml_applist_registered_apps">"자동 실행 어플리케이션 목록"</string>
+    <string name="xml_applist_applist">"설치된 어플리케이션"</string>
+    
+    <!-- writetag.xml -->
+    <string name="xml_writetag_scan">"기기에 태그를 대시면\n기록을 시작합니다."</string>
+    
+    <!-- pref_config.xml -->
+    <string name="xml_prefconfig_title">"환경설정"</string>
+    <string name="xml_prefconfig_launch_app">"어플리케이션 실행"</string>
+    <string name="xml_prefconfig_auto_launch">"자동 실행"</string>
+    <string name="xml_prefconfig_auto_launch_subscribe">"NFC 태그에 기록된 정보를 읽으면\n등록된 어플리케이션을 자동으로 실행합니다."</string>
+    <string name="xml_prefconfig_launch_option">"실행 옵션"</string>
+    <string name="xml_prefconfig_private_launch">"전용 실행"</string>
+    <string name="xml_prefconfig_private_launch_subscribe">"내 기기에서 저장한 실행정보가 아니면\n자동으로 어플리케이션을 실행하지 않습니다."</string>
+        
+    <!-- help_main.xml -->
+    <string name="help_main_what_is_tag_launcher">"TagLauncher란?"</string>
+    <string name="help_main_register_and_write_tag">"자동실행 준비"</string>
+    <string name="help_main_configurations">"환경설정"</string>
+    <string name="help_main_unregister">"자동실행 항목 삭제"</string>
+    <string name="help_main_exit">"도움말 끝내기"</string>
+    
+    <!-- help_register_and_write_to_tag.xml -->
+    <string name="help_register_and_write_script1">"  어플리케이션 자동 실행 기능을 사용 하기 위해서는, 먼저 자동실행 어플리케이션 목록에 해당 어플리케이션을 등록해야 합니다. 설치된 어플리케이션 목록에서 자동실행을 원하는 어플리케이션을 눌러 주세요. \n(예 : 카메라 어플리케이션)"</string>
+    <string name="help_register_and_write_script2">"  등록 확인 창이 표시되면 등록 버튼을 눌러 주세요."</string>
+    <string name="help_register_and_write_script3">"  등록이 완료 되었다면, NFC 태그에 실행정보 저장여부를 묻는 창이 표시됩니다. 태그에 기록 버튼을 눌러 주세요.\n(만약 이미 자동실행 목록에 등록된 어플리케이션이라면, 자동실행 목록의 아이콘을 길게 누르시면 됩니다.)"</string>
+    <string name="help_register_and_write_script4">"  NFC 태그에 쓰기 화면이 표시 된 후 NFC 태그에 해당 기기를 가져다  대면 기록이 완료 됩니다."</string>
+    <string name="help_next_page">"다음 페이지 (왼쪽으로 드래그)>>"</string>
+    
+    <!-- help_settings.xml -->
+    <string name="help_settings_script1">"  자동실행 옵션은 NFC 태그에서 정보를 읽어 어플리케이션 실행하는 기능을 활성/비활성 시킬 수 있는 기능입니다. NFC태그의 정보를 이용하여 어플리케이션을 자동으로 실행하려면 이 옵션을 체크하십시오.\n"</string>
+    <string name="help_settings_script2">"  전용 실행 옵션은 다른 기기에서 기록 된 NFC 태그의 정보는 자동실행을 금지 하는 기능 입니다. 내 기기에서 저장한 정보로만 어플리케이션 자동실행기능을 사용하고자 할 경우 이 옵션을 체크하십시오.\n"</string>
+    
+    <!-- help_unregister.xml -->
+    <string name="help_unregister_script1">"  자동실행 어플리케이션 목록에 등록된 항목을 삭제하고자 할 경우, 해당 항목을 눌러 주십시오."</string>
+    <string name="help_unregister_script2">"  삭제 확인 창이 표시 되면, 삭제 버튼을 눌러서 해당 등록내역을 삭제 할 수 있습니다."</string>
+    
+    <!-- help_what_is_taglauncher.xml -->
+    <string name="help_what_is_taglauncher_script1">"  TagLauncher는 NFC를 이용한 어플리케이션 실행 관리 프로그램입니다. NFC태그를 이용하여 어플리케이션을 실행하려면, 먼저  어플리케이션의 실행 정보가 담긴 NFC 태그를 준비하십시오."</string>
+    <string name="help_what_is_taglauncher_script2">"  그 다음 TagLauncher가 설치 된 기기를 실행정보가 기록된 NFC 태그에 가져다 댑니다.  (단, 해당 기기의 화면이 반드시 켜저 있는 상태여야만 합니다.)"</string>
+    <string name="help_what_is_taglauncher_script3">"  TagLauncher가 NFC 태그에 저장된 정보를 읽어서 NFC 태그에 저장된 어플리케이션을 자동으로 실행 합니다."</string>
+    
+</resources>

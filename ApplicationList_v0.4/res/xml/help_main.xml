@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <Button
+  	  android:id="@+id/btn_help_what_is_taglauncher"
+	  android:layout_width="180dp"
+	  android:layout_height="40dp"
+	  android:layout_marginBottom="10dp"
+	  android:text="@string/help_main_what_is_tag_launcher"/>
+    <Button
+  	  android:id="@+id/btn_help_register_and_write_tag"
+	  android:layout_width="180dp"
+	  android:layout_height="40dp"
+	  android:layout_marginBottom="10dp"
+	  android:text="@string/help_main_register_and_write_tag"/>
+    <Button
+  	  android:id="@+id/btn_help_settings"
+	  android:layout_width="180dp"
+	  android:layout_height="40dp"
+	  android:layout_marginBottom="10dp"
+	  android:text="@string/help_main_configurations"/>
+	<Button
+  	  android:id="@+id/btn_help_unregister"
+	  android:layout_width="180dp"
+	  android:layout_height="40dp"
+	  android:layout_marginBottom="10dp"
+	  android:text="@string/help_main_unregister"/>  
+	<Button
+  	  android:id="@+id/btn_help_close"
+	  android:layout_width="180dp"
+	  android:layout_height="40dp" 
+	  android:text="@string/help_main_exit"/>     
+</LinearLayout>

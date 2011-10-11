@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- AndroidManifest.xml -->
+    <string name="app_name">Tag Launcher</string>
+    <string name="help">Help</string>
+    
+    <!-- AppExec.java -->
+    <string name="appexec_launch_option_disabled">"Launch Failure!\nAuto Launch option is Disabled."</string>
+    <string name="appexec_launch_protect_from_other_device">"Launch Failure!\nApp information is written by other device."</string>
+    <string name="appexec_sorry_app_info_not_found">"Sorry.\nTag is not have application informations."</string>
+    <string name="appexec_sorry_no_registered_apps">"Sorry.\nThere are no registered apps!!"</string>
+    <string name="appexec_sorry_no_matched_apps">"Sorry.\nStored app is not registered this device!!"</string>
+    
+    <!-- AppList.java -->
+    <string name="applist_write_tag">"Write launch information of this App to NFC tag?"</string>
+    <string name="applist_write_tag_button">"Write to Tag"</string>
+    <string name="applist_register_and_write">"Register complete.\nWrite launch information of this App to NFC tag now?"</string>
+    <string name="applist_register_app">"Register to TagLaunch list?"</string>
+    <string name="applist_register">"Register"</string>
+    <string name="applist_cancel">"Cancel"</string>
+    <string name="applist_unregister_app">"Unregister App?"</string>
+    <string name="applist_unregister">"Unregister"</string>
+    <string name="applist_write_to_tag">"Write to Tag"</string>
+    <string name="applist_menu_remove_all">"Remove All"</string>
+    <string name="applist_menu_help">"Help"</string>
+    <string name="applist_menu_configuration">"Configuration"</string>
+    <string name="applist_remove_all_apps">"Remove all registered apps?"</string>
+    <string name="applist_remove_all">"Remove all"</string>
+    <string name="applist_no_intent">"Sorry!!\nApp. intent is null!!"</string>
+    
+    <!-- WriteToTag.java -->
+    <string name="writetotag_no_data">"Nothing to write."</string>
+    <string name="writetotag_not_ready">"Not ready to write."</string>
+    <string name="writetotag_readonly">"Tag is read-only."</string>
+    <string name="writetotag_write_complete">"Write complete."</string>
+    <string name="writetotag_format_fail">"Failed to format tag."</string>
+    <string name="writetotag_ndef_not_supported">"Tag doesn't support NDEF."</string>
+    <string name="writetotag_write_failure">"Failed to write tag"</string>
+    
+    <!-- applist.xml -->
+    <string name="xml_applist_registered_apps">"Registered Applications for TagLaunch"</string>
+    <string name="xml_applist_applist">"Installed Application List"</string>
+    
+    <!-- writetag.xml -->
+    <string name="xml_writetag_scan">"Scan a tag to write."</string>
+    
+    <!-- pref_config.xml -->
+    <string name="xml_prefconfig_title">"Configuration"</string>
+    <string name="xml_prefconfig_launch_app">"Launch app"</string>
+    <string name="xml_prefconfig_auto_launch">"Auto Launch"</string>
+    <string name="xml_prefconfig_auto_launch_subscribe">"Launch app automatically\nby NFC tag reading"</string>
+    <string name="xml_prefconfig_launch_option">"Launch Option"</string>
+    <string name="xml_prefconfig_private_launch">"Private Launch Mode"</string>
+    <string name="xml_prefconfig_private_launch_subscribe">"Launch from tag only written\nby my device"</string>
+    
+    <!-- help_main.xml -->
+    <string name="help_main_what_is_tag_launcher">"What is TagLauncher?"</string>
+    <string name="help_main_register_and_write_tag">"Register \u0026 Write To Tag"</string>
+    <string name="help_main_configurations">"Configurations"</string>
+    <string name="help_main_unregister">"Unregister Launch Info."</string>
+    <string name="help_main_exit">"Exit help page"</string>
+    
+    <!-- help_register_and_write_to_tag.xml -->
+    <string name="help_register_and_write_script1">"  If you want to write application launch information to NFC tag, you have to register the application first. Please click a application which want to write in installed application list. \n\n(Example : Camera application)"</string>
+    <string name="help_register_and_write_script2">"  When pop up a dialog to confirm register, click Register button."</string>
+    <string name="help_register_and_write_script3">"  Register complicated, pop up a dialog for write to NFC tags. Click Write button please.\n\n(If you register the application, please long click the item of registered list.)"</string>
+    <string name="help_register_and_write_script4">"  When your device shows Write Mode, please approach the device to the NFC tag."</string>
+    <string name="help_next_page">"next Page (Drag right to left)>>"</string>
+    
+    <!-- help_settings.xml -->
+    <string name="help_settings_script1">"  Auto Launch option is to enable or to disable to launch application automatically. If Auto Launch is checked, you can launch applications by Reading NFC tag.\n\n"</string>
+    <string name="help_settings_script2">"  Private Launch Mode is to protect NFC tags written by other device. If this option checked, it is only able to launch that the tag is written by your own device.\n\n"</string>
+    
+    <!-- help_unregister.xml -->
+    <string name="help_unregister_script1">"  If you want to unregister application informations , please click the application which want to unregister in registered application list."</string>
+    <string name="help_unregister_script2">"  When pop up a dialog to confirm unregister, click Unregister button."</string>
+    
+    <!-- help_what_is_taglauncher.xml -->
+    <string name="help_what_is_taglauncher_script1">"  The TagLauncher is a kind application execute manager using NFC technology. You can launch a application by just touch NFC tag. First, please  prepare a NFC tag which has a application informations."</string>
+    <string name="help_what_is_taglauncher_script2">"  Second, touch the NFC tag with your device.  (It must be turned on the backscreen of your device.)"</string>
+    <string name="help_what_is_taglauncher_script3">"  Then the device read NFC tag, and the application which saved in the NFC tag will be launched automatically."</string>
+    
+</resources>
